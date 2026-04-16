@@ -1,4 +1,4 @@
-# Model card for thorsten (high)
+# Model card for thorsten (medium)
 
 * Language: de_DE (German, Germany)
 * Speakers: 1
@@ -12,4 +12,4 @@
 
 ## Training
 
-Finetuned from U.S. English lessac voice (high quality).
+Finetuned from U.S. English lessac voice (medium quality).
