@@ -1,0 +1,15 @@
+Voice: Irina (ru_RU)
+Source: RHVoice — https://github.com/RHVoice/RHVoice
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA 4.0)
+
+You are free to:
+  - Use commercially
+  - Share and redistribute
+
+Under the following terms:
+  - Attribution: Credit "Irina voice, © RHVoice (https://github.com/RHVoice/RHVoice)"
+  - ShareAlike: If you redistribute or modify the model files, they must
+    remain under the same CC-BY-SA 4.0 license.
+    (This does NOT apply to your app code — only the model files themselves.)
+
+Full license: https://creativecommons.org/licenses/by-sa/4.0/

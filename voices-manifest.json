@@ -1,0 +1,160 @@
+{
+  "version": "1.0.0",
+  "description": "LingaFlip TTS Voice Manifest — for use with react-native-sherpa-onnx",
+  "source": "https://huggingface.co/rhasspy/piper-voices/tree/main",
+  "github_repo": "https://github.com/borderradar/lingaflip-models",
+  "raw_base_url": "https://raw.githubusercontent.com/borderradar/lingaflip-models/main/voices",
+  "voices": [
+    {
+      "id": "en_US-ljspeech-high",
+      "language": "English (US)",
+      "locale": "en-US",
+      "gender": "female",
+      "quality": "high",
+      "license": "MIT",
+      "attribution_required": false,
+      "engine": "piper",
+      "files": {
+        "model": "en_US/ljspeech/en_US-ljspeech-high.onnx",
+        "config": "en_US/ljspeech/en_US-ljspeech-high.onnx.json"
+      }
+    },
+    {
+      "id": "en_GB-alba-medium",
+      "language": "English (UK)",
+      "locale": "en-GB",
+      "gender": "female",
+      "quality": "medium",
+      "license": "CC0-1.0",
+      "attribution_required": false,
+      "engine": "piper",
+      "files": {
+        "model": "en_GB/alba/en_GB-alba-medium.onnx",
+        "config": "en_GB/alba/en_GB-alba-medium.onnx.json"
+      }
+    },
+    {
+      "id": "de_DE-thorsten-high",
+      "language": "German",
+      "locale": "de-DE",
+      "gender": "male",
+      "quality": "high",
+      "license": "CC0-1.0",
+      "attribution_required": false,
+      "engine": "piper",
+      "files": {
+        "model": "de_DE/thorsten/de_DE-thorsten-high.onnx",
+        "config": "de_DE/thorsten/de_DE-thorsten-high.onnx.json"
+      }
+    },
+    {
+      "id": "fr_FR-siwis-medium",
+      "language": "French",
+      "locale": "fr-FR",
+      "gender": "female",
+      "quality": "medium",
+      "license": "MIT",
+      "attribution_required": false,
+      "engine": "piper",
+      "notes": "Verify MODEL_CARD before shipping",
+      "files": {
+        "model": "fr_FR/siwis/fr_FR-siwis-medium.onnx",
+        "config": "fr_FR/siwis/fr_FR-siwis-medium.onnx.json"
+      }
+    },
+    {
+      "id": "it_IT-paola-medium",
+      "language": "Italian",
+      "locale": "it-IT",
+      "gender": "female",
+      "quality": "medium",
+      "license": "CC0-1.0",
+      "attribution_required": false,
+      "engine": "piper",
+      "files": {
+        "model": "it_IT/paola/it_IT-paola-medium.onnx",
+        "config": "it_IT/paola/it_IT-paola-medium.onnx.json"
+      }
+    },
+    {
+      "id": "ru_RU-irina-medium",
+      "language": "Russian",
+      "locale": "ru-RU",
+      "gender": "female",
+      "quality": "medium",
+      "license": "CC-BY-SA-4.0",
+      "attribution_required": true,
+      "attribution_text": "Russian voice: Irina, © RHVoice (https://github.com/RHVoice/RHVoice), CC-BY-SA 4.0",
+      "license_notes": "ShareAlike applies to model file redistribution only — not app code. Commercial use permitted.",
+      "engine": "piper",
+      "files": {
+        "model": "ru_RU/irina/ru_RU-irina-medium.onnx",
+        "config": "ru_RU/irina/ru_RU-irina-medium.onnx.json"
+      }
+    },
+    {
+      "id": "tr_TR-dfki-medium",
+      "language": "Turkish",
+      "locale": "tr-TR",
+      "gender": "male",
+      "quality": "medium",
+      "license": "MIT",
+      "attribution_required": false,
+      "engine": "piper",
+      "notes": "fahrettin/fettah were removed from repo; dfki is the current active Turkish voice (MIT)",
+      "files": {
+        "model": "tr_TR/dfki/tr_TR-dfki-medium.onnx",
+        "config": "tr_TR/dfki/tr_TR-dfki-medium.onnx.json"
+      }
+    },
+    {
+      "id": "vits-melo-tts-zh_en",
+      "language": "Chinese (Mandarin)",
+      "locale": "zh-CN",
+      "gender": "female",
+      "quality": "high",
+      "license": "MIT",
+      "attribution_required": false,
+      "engine": "melotts",
+      "source": "https://huggingface.co/myshell-ai/MeloTTS-Chinese",
+      "notes": "zh_CN-huayan excluded: source repo deleted, license Unknown. MeloTTS-Chinese is MIT and higher quality. Supports Chinese+English mixed.",
+      "files": {
+        "model_dir": "zh_CN/melo/"
+      }
+    },
+    {
+      "id": "ja_JP-kokoro-v1",
+      "language": "Japanese",
+      "locale": "ja-JP",
+      "gender": "female",
+      "quality": "high",
+      "license": "Apache-2.0",
+      "attribution_required": false,
+      "engine": "kokoro",
+      "notes": "NOT a Piper model — uses Kokoro TTS. Different integration required. See REACT_NATIVE_GUIDE.md",
+      "source": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX",
+      "files": {
+        "model": "ja_JP/kokoro/kokoro-v1.0.onnx",
+        "voices_config": "ja_JP/kokoro/voices.json"
+      }
+    },
+    {
+      "id": "es_ES-davefx-medium",
+      "language": "Spanish (Spain)",
+      "locale": "es-ES",
+      "gender": "male",
+      "quality": "medium",
+      "license": "MIT",
+      "attribution_required": false,
+      "engine": "piper",
+      "files": {
+        "model": "es_ES/davefx/es_ES-davefx-medium.onnx",
+        "config": "es_ES/davefx/es_ES-davefx-medium.onnx.json"
+      }
+    }
+  ],
+  "attribution_block": {
+    "description": "Include this in your app's About / Credits screen",
+    "text": "Voice Attribution:\n- Russian: Irina voice, © RHVoice (github.com/RHVoice/RHVoice), CC-BY-SA 4.0\n- Japanese: Kokoro-82M (hexgrad / Kokoro), Apache 2.0\nPiper TTS engine: github.com/rhasspy/piper (MIT)"
+  }
+}

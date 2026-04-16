@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Excluded voices (license issues)
+# zh_CN/huayan — source repo deleted, license Unknown (PlayVoice/HuaYan_TTS)
+voices/zh_CN/huayan/
+
+# Japanese and Chinese will be added after local download
+# voices/ja_JP/   (Kokoro — download manually, see VOICE_SELECTION.md)
+# voices/zh_CN/melo/  (MeloTTS — download manually, see VOICE_SELECTION.md)
